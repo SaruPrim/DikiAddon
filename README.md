@@ -6,7 +6,7 @@ Rozszerzenie do przeglądarki umożliwiające szybkie wyszukiwanie słów w sło
 
 - Wyszukiwanie zaznaczonego tekstu w Diki
 - Otwarcie wyników w małym oknie typu popup
-- 
+ 
 ## Instalacja testowa do Firefox
 
 1. Otwórz `about:debugging#/runtime/this-firefox`
