@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Słownik Diki",
+  "version": "1.0",
+  "description": "Szybkie wyszukiwanie słów na diki.pl",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "diki-addon@example.com",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "icons": {
+    "272": "diki_logo.png"
+  },
+  "browser_action": {
+    "default_icon": "diki_logo.png",
+    "default_popup": "popup.html"
+  }
+}
