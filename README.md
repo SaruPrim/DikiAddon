@@ -1,4 +1,5 @@
 # Słownik Diki
+[<img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="for Firefox" height="60px">](https://addons.mozilla.org/pl/firefox/addon/s%C5%82ownik-diki/)
 
 Rozszerzenie do przeglądarki umożliwiające szybkie wyszukiwanie słów w słowniku Diki poprzez menu kontekstowe.
 
