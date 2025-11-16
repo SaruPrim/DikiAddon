@@ -9,5 +9,6 @@ Rozszerzenie do przeglądarki umożliwiające szybkie wyszukiwanie słów w sło
 - Otwarcie wyników w małym oknie typu popup
 
 
-<sub>Uwaga: To rozszerzenie nie jest samodzielnym słownikiem ani nie jest powiązane z serwisem Diki.pl.
-Dodatek jedynie ułatwia korzystanie z publicznie dostępnej strony https://www.diki.pl</sub>
+
+
+<sub>Uwaga: To rozszerzenie nie jest samodzielnym słownikiem ani nie jest powiązane z serwisem Diki.pl. Dodatek jedynie ułatwia korzystanie z publicznie dostępnej strony https://www.diki.pl</sub>
