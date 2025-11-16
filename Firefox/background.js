@@ -1,18 +1,28 @@
-chrome.runtime.onInstalled.addListener(() => {
-    // menu po zaznaczeniu tekstu
-    chrome.contextMenus.create({
-        id: "dikiSearch",
-        title: "Wyszukaj w Diki słowo: \"%s\"",
-        contexts: ["selection"]
-    });
+function createMenus() {
 
-    // menu po kliknięciu PPM na ikonę dodatku
-    chrome.contextMenus.create({
-        id: "dikiOptions",
-        title: "Ustawienia Diki",
-        contexts: ["browser_action"]
+    // Usuwa wszystkie stare wpisy
+    chrome.contextMenus.removeAll(() => {
+
+        // menu dla zaznaczonego tekstu
+        chrome.contextMenus.create({
+            id: "dikiSearch",
+            title: "Wyszukaj w Diki słowo: \"%s\"",
+            contexts: ["selection"]
+        });
+
+        // Chrome → action, Firefox → browser_action
+        const isMV3 = chrome.runtime.getManifest().manifest_version === 3;
+
+        chrome.contextMenus.create({
+            id: "dikiOptions",
+            title: "Ustawienia Diki",
+            contexts: [isMV3 ? "action" : "browser_action"]
+        });
     });
-});
+}
+
+chrome.runtime.onInstalled.addListener(createMenus);
+chrome.runtime.onStartup.addListener(createMenus);
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
     if (info.menuItemId === "dikiSearch") {
