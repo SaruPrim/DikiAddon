@@ -12,11 +12,14 @@
       "id": "diki-addon@example.com",
       "data_collection_permissions": {
       "required": ["none"]
-    }
+      }
     }
   },
   "icons": {
-    "128": "diki_logo.png"
+          "16": "icons/icon16.png",
+          "32": "icons/icon32.png",
+          "48": "icons/icon48.png",
+          "128": "icons/icon128.png"
   },
   "browser_action": {
     "default_icon": "diki_logo.png",
