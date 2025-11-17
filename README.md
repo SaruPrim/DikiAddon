@@ -10,8 +10,6 @@ Addon daje możliwość szybkiego sprawdzania tłumaczenia pojedynczych słów n
 
 📘 Po kliknięciu ikony rozszerzenia otwierane jest małe okno ze słownikiem
 
-🪟 Wyświetlanie wyników w wygodnym oknie typu popup
-
 ⚙️ Możliwość ustawienia domyślnego języka
 
 <br> <sub> **Uwaga:** To rozszerzenie nie jest samodzielnym słownikiem i nie jest powiązane z serwisem Diki.pl. Dodatek jedynie ułatwia korzystanie z publicznie dostępnej strony https://www.diki.pl. </sub>
